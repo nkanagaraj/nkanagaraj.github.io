@@ -8,7 +8,7 @@
 
 .og-grid li {
 	display: inline-block;
-	margin: 10px 5px 0 5px;
+	/*margin: 10px 5px 0 5px;*/
 	vertical-align: top;
 	height: 250px;
 }
@@ -122,7 +122,7 @@
 	color: #999;
 }
 
-.og-details a {
+.og-details button {
 	font-weight: 700;
 	font-size: 16px;
 	color: #333;
@@ -135,13 +135,13 @@
 	outline: none;
 }
 
-.og-details a::before {
+.og-details button::before {
 	content: '\2192';
 	display: inline-block;
 	margin-right: 10px;
 }
 
-.og-details a:hover {
+.og-details button:hover {
 	border-color: #999;
 	color: #999;
 }
@@ -192,4 +192,25 @@
 	.og-fullimg { display: none; }
 	.og-details { float: none; width: 100%; }
 	
+}
+
+ .my-gallery {
+	 width: 100%;
+	 float: left;
+ }
+
+.my-gallery img {
+	width: 100%;
+	height: auto;
+}
+
+.my-gallery figure {
+	display: block;
+	float: left;
+	margin: 0 5px 5px 0;
+	max-width: 300px;
+}
+
+.my-gallery figcaption {
+	display: none;
 }
