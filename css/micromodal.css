@@ -54,6 +54,9 @@
 .modal__close {
     background: transparent;
     border: 0;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .modal__header .modal__close:before {
@@ -165,4 +168,8 @@
 .micromodal-slide .modal__container,
 .micromodal-slide .modal__overlay {
     will-change: transform;
+}
+
+.modal__content p {
+    margin-bottom: 15px;
 }
